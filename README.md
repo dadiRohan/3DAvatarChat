@@ -2,9 +2,7 @@
 
 ## Setup
 
-1. Run the server-side bot; see [README](https://github.com/dadiRohan/3DAvatarChat/edit/main/server/README.md).
-
-2. Navigate to the `frontend` directory:
+1. clone this repo
 
 ```bash
 cd frontend
