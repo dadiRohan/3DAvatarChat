@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Realistic 3D Avatar Chat</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+    }
+
+    #left {
+      flex: 2;
+      background: #0f98aa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #three-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    #right {
+      flex: 1;
+      padding: 16px;
+      box-sizing: border-box;
+      color: #0f98aa;
+      overflow-y: auto;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      resize: none;
+    }
+
+    button {
+      padding: 8px 12px;
+      margin-top: 8px;
+    }
+
+    #log {
+      height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 8px;
+      margin-top: 8px;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="left">
+    <div id="three-container"></div>
+  </div>
+
+  <div id="right">
+    <h3>Chat with Avatar</h3>
+    <textarea id="message" placeholder="Type your message..."></textarea>
+    <button id="sendBtn">Send</button>
+    <h4>Log</h4>
+    <div id="log"></div>
+  </div>
+
+  <script type="module" src="avatar.js"></script>
+</body>
+
+</html>

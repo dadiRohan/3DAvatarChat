@@ -1,4 +1,26 @@
-# SimpleAvatarChat (For Talking with 3D Avatar)
-### This is Very Simple example for Chat Integration with Avatar Lip Syncing ###
-1. First Run Backend then go to server folder and follow their steps
-2. Second Run frontend then go to frontend folder and follow their steps
+# JavaScript Implementation
+
+## Setup
+
+1. Run the server-side bot; see [README](https://github.com/dadiRohan/3DAvatarChat/edit/main/server/README.md).
+
+2. Navigate to the `frontend` directory:
+
+```bash
+cd frontend
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the client app:
+
+```
+npm run dev
+```
+
+5. Visit http://localhost:5173 in your browser.
+
