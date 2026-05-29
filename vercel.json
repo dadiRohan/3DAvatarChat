@@ -2,16 +2,16 @@
   "version": 2,
   "routes": [
     {
-      "src": "/models/(.*)",
+      "src": "/public/models/(.*)",
       "headers": {
         "Content-Type": "model/gltf-binary",
         "Cache-Control": "public, max-age=31536000, immutable"
       },
-      "dest": "/models/$1"
+      "dest": "/public/models/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/"
     }
   ]
 }
