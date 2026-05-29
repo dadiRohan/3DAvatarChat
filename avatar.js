@@ -52,7 +52,7 @@ let eyeBlinkRightIndex = -1;
 
 const Avatar = 'avatar_male.glb';
 
-loader.load('/public/models/' + Avatar, (gltf) => {
+loader.load('/models/' + Avatar, (gltf) => {
     avatar = gltf.scene;
     avatar.scale.set(1.5, 1.5, 1.5);
     avatar.position.y = 0;
