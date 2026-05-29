@@ -1,0 +1,2 @@
+# Remove GLB from LFS tracking
+echo "*.glb binary" > .gitattributes
